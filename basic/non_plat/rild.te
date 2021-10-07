@@ -138,7 +138,7 @@ get_prop(rild, mtk_wfc_serv_prop)
 # Purpose: To handle illegal rild started
 set_prop(rild, gsm0710muxd_prop)
 
-dontaudit rild exported3_default_prop:file { getattr map open read };
+dontaudit rild usb_config_prop:file { getattr map open read };
 
 # Allow telephony
 get_prop(rild, telephony_prop)
