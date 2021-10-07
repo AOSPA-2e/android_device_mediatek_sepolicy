@@ -109,7 +109,7 @@ set_prop(emdlogger, debug_mdlogger_prop)
 get_prop(emdlogger, vendor_usb_prop)
 set_prop(emdlogger, persist_mdlog_prop)
 set_prop(emdlogger, vendor_mdl_pulllog_prop)
-set_prop(emdlogger, exported_usb_prop)
+set_prop(emdlogger, usb_config_prop)
 set_prop(emdlogger, debug_prop)
 set_prop(emdlogger, usb_prop)
 
